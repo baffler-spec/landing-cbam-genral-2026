@@ -1,0 +1,853 @@
+{
+  "source_project_id": "appgprj_6ac43902dd3c8191926056a4b41eda50",
+  "source_commit": "1f686f59a5e4ce5091a3cef5a7d5a6f5dbbffd62",
+  "site_version": 11,
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 28,
+      "sha": "7e56a89fbf76f5e3f6cc1ea0fbaa8c1657687078",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "size": 613,
+      "sha": "cb0f26ae3791435ebfb2f0f8c013f2330f8edc86",
+      "mode": "100644"
+    },
+    {
+      "path": ".npmrc",
+      "size": 45,
+      "sha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6",
+      "mode": "100644"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "size": 91,
+      "sha": "c0ba27c880009d2c715b14430ecc62f80ffc8a48",
+      "mode": "100644"
+    },
+    {
+      "path": "IMPLEMENTACION.md",
+      "size": 8719,
+      "sha": "90a8ae2a463bf174cc4966574b697eb9b3bc200d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "size": 10120,
+      "sha": "342e11691b570f37f86a17b4314924f73c904b03",
+      "mode": "100644"
+    },
+    {
+      "path": "app/api/report/route.ts",
+      "size": 703,
+      "sha": "41baabdd264c90e1e8a2119d243c1b3be35c6be4",
+      "mode": "100644"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "size": 2550,
+      "sha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3",
+      "mode": "100644"
+    },
+    {
+      "path": "app/globals.css",
+      "size": 33199,
+      "sha": "658944683d09474098b35abfbafaa5e40c063024",
+      "mode": "100644"
+    },
+    {
+      "path": "app/layout.tsx",
+      "size": 633,
+      "sha": "fb1b03280eb25301f283048729ef85cbb8b5fe16",
+      "mode": "100644"
+    },
+    {
+      "path": "app/page.tsx",
+      "size": 29797,
+      "sha": "fff99edc8719028273a6ba74c34e3da633a88763",
+      "mode": "100644"
+    },
+    {
+      "path": "build/sites-vite-plugin.LICENSE",
+      "size": 1063,
+      "sha": "4243cb4a9aaa50f954498e54c850773e9ba13eea",
+      "mode": "100644"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "size": 7185,
+      "sha": "2ece1b96530b40a7ea4981e6341b52771a07813e",
+      "mode": "100644"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "size": 99,
+      "sha": "856e090c902917b4e1cebee0e08ea1d398fd01c3",
+      "mode": "100644"
+    },
+    {
+      "path": "components.json",
+      "size": 420,
+      "sha": "c8f5bb16f79ed774f67415a8dc2b4a38243e3e90",
+      "mode": "100644"
+    },
+    {
+      "path": "components/growth-display.tsx",
+      "size": 2931,
+      "sha": "f7a126fffe0aba69fd49fac1e338c6f65459fd10",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/accordion.tsx",
+      "size": 2048,
+      "sha": "91e3a250ce6ee0797b0258454d774800650adcc8",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/alert-dialog.tsx",
+      "size": 5439,
+      "sha": "dad327341382f200b84d5f833eb1b7a74b0e7469",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/alert.tsx",
+      "size": 1614,
+      "sha": "f99164ed4b320790482f514342dab5e72f284aca",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/aspect-ratio.tsx",
+      "size": 274,
+      "sha": "57e38fa96f9c0cb767d7b8de0d6dbc171d1b921a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/attachment.tsx",
+      "size": 6002,
+      "sha": "5bdd1ce7db5800eb55198cd0291a1e47dc67fb0d",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "size": 2916,
+      "sha": "ea658505703a577fe93341e5e1a0b478c27245f7",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "size": 1776,
+      "sha": "6eb2a057aae0e23a74368cc4daf9657210e9a740",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "size": 2350,
+      "sha": "004bb63a4c92229e612b6126d79fb7b078aa7565",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/bubble.tsx",
+      "size": 4699,
+      "sha": "792146e61d80ef595d032d5d09a3d572d50f1374",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/button-group.tsx",
+      "size": 2202,
+      "sha": "cd550d7afca6562548afe3f595b352406f7f3951",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "size": 2392,
+      "sha": "4d38506cee5430d95a59ec6a2a0cef2b79217e7a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/calendar.tsx",
+      "size": 7832,
+      "sha": "5d31419b130a18c52320f5a21546a9236123b6bf",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "size": 1987,
+      "sha": "acf57dc5a534792273b8fb86227e92e001f3dc53",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/carousel.tsx",
+      "size": 5556,
+      "sha": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "size": 10614,
+      "sha": "9813c584e125847d88e9e7e7f9edff7e9ba45a97",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "size": 1214,
+      "sha": "f5a7e433f3795b82a00c5c06a1fc6decf116a84a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "size": 795,
+      "sha": "2f7a4e7fc64a8874373c1584646a63f28cd63c47",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/combobox.tsx",
+      "size": 9158,
+      "sha": "2415bd801031a16bbcee8343058825feecfaea69",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/command.tsx",
+      "size": 4818,
+      "sha": "8fe3ccb406be52d28961b0c0220e87ecd19596ca",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/context-menu.tsx",
+      "size": 8268,
+      "sha": "5aaca76552cf0468b1def03c9e2c42f1f0b60734",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "size": 4303,
+      "sha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/direction.tsx",
+      "size": 506,
+      "sha": "22e165774bd595fbf41d0c45efef1cf996897983",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "size": 4255,
+      "sha": "ad08671442203fe345093f364696bdf43528e0b7",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "size": 8418,
+      "sha": "ae1fcf62f1e3b648554789b8fe02943d92bf00fc",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/empty.tsx",
+      "size": 2396,
+      "sha": "ce4b0095f6d19d2eae2e465060e9060b0c210856",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/field.tsx",
+      "size": 6159,
+      "sha": "ec849dae4d3dd06a973ba22e4b2248a25cf18148",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "size": 3757,
+      "sha": "f371fea1bc35380d28678c6cf53df8f65deb2776",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/hover-card.tsx",
+      "size": 1526,
+      "sha": "91e869c0d3091cbeddf5cb0266e82ddf56f829a6",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/input-group.tsx",
+      "size": 5065,
+      "sha": "a7652d936fffd9c5bca4b88e6b9715bf559e667d",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/input-otp.tsx",
+      "size": 2254,
+      "sha": "6a556afacd71996bf0e385ff2b04869fb2ee4523",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "size": 962,
+      "sha": "f1124aea14eee062fc2f4c55dad5f0d9de0ccc1a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/item.tsx",
+      "size": 4486,
+      "sha": "d5dbb1a9c2e70456e45a39887a4b7cc56d484a45",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/kbd.tsx",
+      "size": 862,
+      "sha": "2459224fbc531f6306b73aaeb22e9022d9985332",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "size": 606,
+      "sha": "1ac80f701ebfe9dc02d632c08cafade732e46625",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/marker.tsx",
+      "size": 1864,
+      "sha": "cfa76c6c014ab342befcbf7571eb932917406522",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/menubar.tsx",
+      "size": 8389,
+      "sha": "4af16a428377f81cbb3f66adfe518308e0b690d8",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/message-scroller.tsx",
+      "size": 3992,
+      "sha": "0b05011259c026a357380c3834bce0ead8565d22",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/message.tsx",
+      "size": 2232,
+      "sha": "53437e8db2b0fad1da06a7499e54ddaf116295c2",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/native-select.tsx",
+      "size": 1995,
+      "sha": "3058398399ad6c029ad527052475b360b114715b",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/navigation-menu.tsx",
+      "size": 6658,
+      "sha": "0a673f513c97fbeaae0872403b7582ab2ba7e3c3",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/pagination.tsx",
+      "size": 2717,
+      "sha": "1dcfb0cc050c5f2bdd930522d627313d03d3690c",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/popover.tsx",
+      "size": 2357,
+      "sha": "30058c4ec284ca9cad1ed1162d084ce3cd94e2b0",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/progress.tsx",
+      "size": 755,
+      "sha": "b3ae25089ad549b7f13125e482f99b43dd895bd2",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "size": 1460,
+      "sha": "fe514536ed771f7adef0a6b9e4d1aeadc2c95481",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/resizable.tsx",
+      "size": 1815,
+      "sha": "a76832a10b4c5c2a137e25c16478567ba86daf0d",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "size": 1639,
+      "sha": "73c4eb1cdcd4a699b150a9ddc3e87bfb90b63d09",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "size": 6353,
+      "sha": "c0dc7120b4f78008ae5efc6d1c8b7ec8205c35d5",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "size": 694,
+      "sha": "cd873e3631b571060f166897b7b62e033e87c18f",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "size": 4188,
+      "sha": "cb53bb28b6850745c9519e8e7462e05f85a50c93",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "size": 21526,
+      "sha": "f5f6c5aefc88ffa2e999e284b299472215c05161",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "size": 276,
+      "sha": "3ec6be770b846170b8e7f8916e5f165e2d1730df",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "size": 1991,
+      "sha": "46ebc4b4df1e9baf1f3997a4b6c08ef80c84a9c9",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "size": 1034,
+      "sha": "9b20afe2e10fd9b94d1abc1ae732054b2fb9821c",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/spinner.tsx",
+      "size": 331,
+      "sha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/switch.tsx",
+      "size": 1408,
+      "sha": "8baa844fdb17d668b3ce07cfbd6a7ef52e2eb5eb",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "size": 2478,
+      "sha": "7add5f1a22db954ac6cb3446f1bf8c8a9fc5c335",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "size": 3782,
+      "sha": "b463afd170637df477e36184aa27d2ad1bd3c3e0",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/textarea.tsx",
+      "size": 759,
+      "sha": "e67d8fefe50c41dfa2deed9a5096d5be7691581a",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "size": 2308,
+      "sha": "9894607b212ff7182bf2024f4262da03df0a8973",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "size": 1565,
+      "sha": "5250c98ff7f11f531af38c227230a76b7d25bf19",
+      "mode": "100644"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "size": 1830,
+      "sha": "ec65c1e4255f050d9555c6cdade90a5f8a6c0c29",
+      "mode": "100644"
+    },
+    {
+      "path": "db/schema.ts",
+      "size": 11,
+      "sha": "cb0ff5c3b541f646105198ee23ac0fc3d805023e",
+      "mode": "100644"
+    },
+    {
+      "path": "design/photography-prompts.json",
+      "size": 5057,
+      "sha": "ffbca5478be3bbf409a5bcf34fd3495ecce32e6e",
+      "mode": "100644"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "size": 148,
+      "sha": "c2b2f34376984744343453838ce66658ad9d9b6a",
+      "mode": "100644"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "size": 846,
+      "sha": "1c56c0144ce558825265a2d79d06b1ce6150d24f",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "size": 1700,
+      "sha": "07f8318c3c290d68163e95aa3e170ad92a235f27",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "size": 370,
+      "sha": "7bb0c157110799b9b53c767517e0d192b7201f2e",
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/use-mobile.ts",
+      "size": 565,
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/calculator.ts",
+      "size": 1866,
+      "sha": "fa571c6488c4dc52bc7c3f5ea814672a9e21221b",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/parameters.json",
+      "size": 1293,
+      "sha": "e78266bcaf22f65d3c2fcaab0baf69a78c781ae6",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/report-logo.ts",
+      "size": 32006,
+      "sha": "97b86466cf5fe161c305438f0b6f4a0c51410828",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/report-pdf.ts",
+      "size": 4817,
+      "sha": "39ef966ee5004c38398e025cbcb3f885c80304ee",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/territories.ts",
+      "size": 2091,
+      "sha": "9584c1ad8aa6f779e60b33f50e02f281d523dfed",
+      "mode": "100644"
+    },
+    {
+      "path": "lib/utils.ts",
+      "size": 177,
+      "sha": "b500fb167fdaa78785feb0ff03b51f8a182a44ae",
+      "mode": "100644"
+    },
+    {
+      "path": "next.config.ts",
+      "size": 133,
+      "sha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4",
+      "mode": "100644"
+    },
+    {
+      "path": "package.json",
+      "size": 2111,
+      "sha": "6d34f4be389e99ff4bacdb8568cf5994d94be625",
+      "mode": "100644"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "size": 343476,
+      "sha": "3910e4de581bac7207a2b10718283d3d2267f7b0",
+      "mode": "100644"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "size": 703,
+      "sha": "db0e3f4f0924b862f03df8f5905406bde69ce40b",
+      "mode": "100644"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "size": 94,
+      "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+      "mode": "100644"
+    },
+    {
+      "path": "public/cb-asset-1.webp",
+      "size": 243030,
+      "sha": "7d09a1cefe367fef8e2f0e8438c4c8d8b11b9d7e",
+      "mode": "100644"
+    },
+    {
+      "path": "public/cb-asset-2.webp",
+      "size": 157782,
+      "sha": "9c78959fe42cca8a2529119684bf45c872001ff7",
+      "mode": "100644"
+    },
+    {
+      "path": "public/cb-asset-3.webp",
+      "size": 93926,
+      "sha": "1bdd3debd3f2a15fca3c3f0136c5a0090f3197ef",
+      "mode": "100644"
+    },
+    {
+      "path": "public/cb-asset-4.webp",
+      "size": 158618,
+      "sha": "6a3088faa06050827144a5756999727cb3907650",
+      "mode": "100644"
+    },
+    {
+      "path": "public/cb-asset-6.webp",
+      "size": 103280,
+      "sha": "7532fbf484aabde279615326a21189ee1e8fbfd3",
+      "mode": "100644"
+    },
+    {
+      "path": "public/entrepreneurs.webp",
+      "size": 182646,
+      "sha": "50e837206a4c0318bb25480f46cb996feb59cb05",
+      "mode": "100644"
+    },
+    {
+      "path": "public/estate.webp",
+      "size": 333810,
+      "sha": "90fd7bdcc576e6c987938e7c9f15ce063e065bd2",
+      "mode": "100644"
+    },
+    {
+      "path": "public/favicon-cb.svg",
+      "size": 2319,
+      "sha": "1de60defa8870bbb113729bf48a328d190c0f05d",
+      "mode": "100644"
+    },
+    {
+      "path": "public/favicon.svg",
+      "size": 290,
+      "sha": "664649fc972d82c90fdb0392dcf444cb345e0667",
+      "mode": "100644"
+    },
+    {
+      "path": "public/file.svg",
+      "size": 392,
+      "sha": "16fe3d3a3ab9bd42e1616ec00066faba7e4aabe0",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/Roboto-OFL.txt",
+      "size": 4394,
+      "sha": "9c48e05a24fa2267e207ecf17560291b5621c197",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-italic-300.woff",
+      "size": 30060,
+      "sha": "6ea6c0db862b83207256dad78426746aa1fe294a",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-italic-400.woff",
+      "size": 29940,
+      "sha": "676be5dd5c9fc11267d0e3bcafb3dd5ea07695c7",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-normal-300.woff",
+      "size": 27936,
+      "sha": "0f8bc8b4f1316c2d73dfc5817f12c3727a16c081",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-normal-400.woff",
+      "size": 27712,
+      "sha": "9815038c878394358cf1ce8224ac261e62423a34",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-normal-500.woff",
+      "size": 28056,
+      "sha": "1d0c7b856166969f6232abd382e2bd6ee8c0f426",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-normal-600.woff",
+      "size": 28132,
+      "sha": "204338e2e2e37acb62d6cf63b5d7bb623b6cc477",
+      "mode": "100644"
+    },
+    {
+      "path": "public/fonts/roboto-normal-700.woff",
+      "size": 28176,
+      "sha": "19e2845eabf2f98e717382920bfea617e5018fb4",
+      "mode": "100644"
+    },
+    {
+      "path": "public/general-coaching.webp",
+      "size": 145092,
+      "sha": "de6f70b492a93cb0fbc0b18feed109e196008245",
+      "mode": "100644"
+    },
+    {
+      "path": "public/general-exclusives.webp",
+      "size": 108076,
+      "sha": "d909a04f9a50c3039cea37e88274f7f13ce8d44d",
+      "mode": "100644"
+    },
+    {
+      "path": "public/general-hero.webp",
+      "size": 187828,
+      "sha": "3f632fc907e64e35084f26f959080866fdb1010e",
+      "mode": "100644"
+    },
+    {
+      "path": "public/general-international.webp",
+      "size": 118576,
+      "sha": "a8a8c05736668df21c0882bb54ae3e5a8b8f6bdd",
+      "mode": "100644"
+    },
+    {
+      "path": "public/general-luxury.webp",
+      "size": 94416,
+      "sha": "acb6e37a45259fe24723d8a7c640514a68b10a6d",
+      "mode": "100644"
+    },
+    {
+      "path": "public/globe.svg",
+      "size": 1036,
+      "sha": "c7215fe0f2634ae9f51d15dacc09184f5343941a",
+      "mode": "100644"
+    },
+    {
+      "path": "public/hero-emprendedores-right.webp",
+      "size": 280658,
+      "sha": "447590a3a8830c031185331a9e390700303c8d71",
+      "mode": "100644"
+    },
+    {
+      "path": "public/logo-blue.svg",
+      "size": 12149,
+      "sha": "fa030fdbc5441d71705b5b4ea33cf0bf6d980c7d",
+      "mode": "100644"
+    },
+    {
+      "path": "public/logo-white.svg",
+      "size": 12164,
+      "sha": "14536cafa7c338edce94d7793171183ce95a55dd",
+      "mode": "100644"
+    },
+    {
+      "path": "public/logo.png",
+      "size": 67824,
+      "sha": "3869d264a54c10b90b7dfda24eabb19b281f3ce8",
+      "mode": "100644"
+    },
+    {
+      "path": "public/owner.webp",
+      "size": 187290,
+      "sha": "e72e49f1facb5899800950dfa3cd351d10b36001",
+      "mode": "100644"
+    },
+    {
+      "path": "public/penthouse-santa-fe.webp",
+      "size": 243484,
+      "sha": "68f236868eea5ae538371cedc297414908b75f0b",
+      "mode": "100644"
+    },
+    {
+      "path": "public/penthouse.webp",
+      "size": 228174,
+      "sha": "d41204ccf05341d09e3fc72baf7e90f72dd2d748",
+      "mode": "100644"
+    },
+    {
+      "path": "public/window.svg",
+      "size": 386,
+      "sha": "d05e7a1bc066341298657dcc304dbadc4ddcab9d",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/build-verified.sh",
+      "size": 661,
+      "sha": "6c69cf3ad6855c25c312b67f02fd1afffb97b63d",
+      "mode": "100755"
+    },
+    {
+      "path": "scripts/execution-profile.mjs",
+      "size": 624,
+      "sha": "f27aec211320d9a5fd0dbbb07f5c508222b2b8d4",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/install-ci.mjs",
+      "size": 1685,
+      "sha": "22bd7d555c8f2a996d5bfe5be0ba9a5a43a1bf7f",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/install-ci.sh",
+      "size": 6783,
+      "sha": "7b4a810e1663afb4572d167eb78e09b3db07be10",
+      "mode": "100755"
+    },
+    {
+      "path": "scripts/install-pnpm.sh",
+      "size": 9024,
+      "sha": "722a2f6c515f887d66a92ea311a846a4ccc00afc",
+      "mode": "100755"
+    },
+    {
+      "path": "scripts/npm-install.mjs",
+      "size": 7025,
+      "sha": "64ade63f6092ed209b1a76718145d80de38b34f2",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/pnpm-install.mjs",
+      "size": 10642,
+      "sha": "d57a1efad54ed9d0857de95c1fac5c8ecfb7c18b",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/run-framework.mjs",
+      "size": 993,
+      "sha": "166b0c2487819135ddfb30c9267e790ebb8c498f",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/sites-env.mjs",
+      "size": 906,
+      "sha": "1eeedb5e13e4b9af70d89446d981dfd4cd92a3fd",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/sites-env.sh",
+      "size": 1530,
+      "sha": "728416424d5d2f4c9a746d53621668225645356c",
+      "mode": "100755"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 800,
+      "sha": "be170f57ec372cc118f2d343092a53b85fc189a4",
+      "mode": "100644"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "size": 1063,
+      "sha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0",
+      "mode": "100644"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.css",
+      "size": 16041,
+      "sha": "7807c58eb94de8b764b9b6b7b5d8cde6d012b17f",
+      "mode": "100644"
+    },
+    {
+      "path": "vite.config.ts",
+      "size": 2240,
+      "sha": "e98afea633a7aa88ee0bab21773219a66563f9ac",
+      "mode": "100644"
+    }
+  ]
+}
